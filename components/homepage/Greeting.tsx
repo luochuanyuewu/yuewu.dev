@@ -7,7 +7,7 @@ export function Greeting() {
   )
   return (
     <div className={className}>
-      Howdy, fellow! <i className="twa twa-waving-hand"></i>
+      你好，伙计! <i className="twa twa-waving-hand"></i>
     </div>
   )
 }
