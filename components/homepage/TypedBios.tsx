@@ -21,26 +21,22 @@ export function TypedBios() {
     <div>
       <ul id="bios" className="hidden">
         <li>
-          I'm aliased as <b className="font-medium">Leo</b> at work.
+          现实中我叫<b className="font-medium">刘金生</b>。
         </li>
-        <li>I'm a learner, builder, and freedom seeker.</li>
+        <li>我是一个学习者，开发者，以及自由言论者。</li>
         <li>
-          I live in <b className="font-medium">Ha Noi, Viet Nam</b>.
-        </li>
-        <li>
-          I was born in the beautiful <b className="font-medium">Moc Chau</b> plateau.
+          我住在 <b className="font-medium">中国重庆</b>。
         </li>
         <li>
-          My first programming language I learned was <b className="font-medium">Pascal</b>.
-        </li>
-        <li>I love web development.</li>
-        <li>I'm focusing on building eCommerce software.</li>
-        <li>I work mostly with JS/TS technologies.</li>
-        <li>I'm Tu Le's husband.</li>
-        <li>
-          I'm a dog-person <Twemoji emoji="dog" />.
+          我出生在美丽的 <b className="font-medium">重庆忠县</b> 。
         </li>
         <li>
+          我学的第一个（但忘记了的）编程语言是<b className="font-medium">Lua</b>。
+        </li>
+        <li>我专注游戏开发和Web技术</li>
+        <li>我主要使用虚幻引擎/NextJs/Strapi/Golang</li>
+        <li>我是刘钱妹的丈夫。</li>
+        {/* <li>
           I'm a sport-guy. I love
           <span className="ml-1">
             <Twemoji emoji="soccer-ball" />,
@@ -49,17 +45,11 @@ export function TypedBios() {
             <Twemoji emoji="volleyball" />
           </span>
           .
-        </li>
-        <li>I love watching football.</li>
+        </li> */}
+        <li>我爱看美剧。</li>
         <li>
-          I love playing <Twemoji emoji="musical-keyboard" /> & <Twemoji emoji="guitar" />.
-        </li>
-        <li>I love rock music.</li>
-        <li>
-          I love playing chess <Twemoji emoji="chess-pawn" />.
-        </li>
-        <li>
-          I love playing video game <Twemoji emoji="video-game" />, PES is my favorite one.
+          我喜欢玩视频游戏 <Twemoji emoji="video-game" />
+          ，老头环是我最爱。
         </li>
       </ul>
       <span ref={el} className="text-neutral-900 dark:text-neutral-200" />
